@@ -1,0 +1,83 @@
+/*==========================
+tab rotate 
+===========================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+	.header .navbar-nav {
+    margin-right: 5px;
+}
+.help-btn a {
+    font-size: 15px;
+}
+
+}
+/*==========================
+tab device 
+===========================*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.header .navbar-nav {
+		margin-right: 0;
+	}
+	.navbar-light .navbar-toggler {
+    border-color: #CF112B;
+    background-color: #CF112B;
+    color: #fff;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+    color: #fff;
+    width: 30px;
+    padding-top: 1px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 12px 0;
+}
+.navbar-nav {
+    background: #CF112B;
+    padding: 20px; }
+
+}
+
+.main-menu {
+    margin-top: 30px;
+}
+.help-btn {
+    text-align: center;
+}
+/*==========================
+small device /mobile sm and large
+===========================*/
+@media (max-width: 767px) {
+	.header .navbar-nav {
+		margin-right: 0;
+	}
+	.navbar-light .navbar-toggler {
+    border-color: #CF112B;
+    background-color: #CF112B;
+    color: #fff;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+    color: #fff;
+    width: 30px;
+    padding-top: 1px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 12px 0;
+}
+.navbar-nav {
+    background: #CF112B;
+    padding: 20px; }
+
+}
+
+.main-menu {
+    margin-top: 30px;
+}
+.help-btn {
+    text-align: center;
+    margin-top: 10px
+}
+.footer-area {
+    text-align: center;
+}
+}
